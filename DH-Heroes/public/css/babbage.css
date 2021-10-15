@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+body h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+body h2 {
+    background-color: darkgray;
+    text-align: center;
+}
+
+body div {
+    border: 3px solid;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 30px;
+    position: absolute;
+    /*mover la foto al centro*/
+}
+
+body p {
+    text-align: justify;
+}
