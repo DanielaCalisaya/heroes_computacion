@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0 auto;
+    /*padding: 0 auto;*/
 }
 
 body h1 {
@@ -25,20 +25,25 @@ body .imagen {
     margin: 0 auto; /*logramos centrar la imagen*/
 }
 
-body section .father {
-    display: list-item; /**/
-    align-self:center;
+body .box-father {
+    display: flex;
     width: 100%;
-    order: 1;
-    
+    justify-content: center;
+    margin-top: 20px;
 }
 
 body .box-one {
     background-color: lightpink;
-    width: 50%;
+    text-align: center;
+    border: solid 2px rgb(68, 66, 66);
+    width: 40%;
+    padding: 8px;
 }
 
 body .box-two {
     background-color: lightblue;
-    width: 50%;
+    text-align: center;
+    border: solid 2px black;
+    width: 40%;
+    padding: 8px;
 }
