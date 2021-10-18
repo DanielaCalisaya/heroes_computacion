@@ -25,9 +25,12 @@ body .imagen {
     margin: 0 auto; /*logramos centrar la imagen*/
 }
 
-body .father {
-    display:list-item;
-    /*mover las cajas una al lado de otra*/
+body section .father {
+    display: list-item; /**/
+    align-self:center;
+    width: 100%;
+    order: 1;
+    
 }
 
 body .box-one {
