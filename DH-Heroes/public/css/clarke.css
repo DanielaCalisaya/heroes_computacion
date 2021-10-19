@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+body h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+body .main {
+    display: flex;
+    flex-direction: center;
+    padding: 20px;
+}
+
+body .text {
+    text-align: justify;
+    width: 500px;
+    margin-right: 20px;
+}
+
+body .images {
+    margin: 10px;
+}
