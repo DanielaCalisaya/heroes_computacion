@@ -4,7 +4,7 @@
     /*padding: 0 auto;*/
 }
 
-body h1 {
+h1 {
     text-align: center;
     font-size: 20px;
     background-color: rgb(63, 61, 61);
@@ -12,27 +12,27 @@ body h1 {
     border-bottom: 20px;
 }
 
-body h2 {
+h2 {
     text-align: center;
     font-size: 18px;
     background-color: rgb(102, 100, 100);
     border-top: 20px;
 }
 
-body .imagen {
+.imagen {
     border: solid 2px;
     width: fit-content; /*el borde solo envuelve a la foto*/
     margin: 0 auto; /*logramos centrar la imagen*/
 }
 
-body .box-father {
+.box-father {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 20px;
 }
 
-body .box-one {
+.box-one {
     background-color: lightpink;
     text-align: center;
     border: solid 2px rgb(68, 66, 66);
