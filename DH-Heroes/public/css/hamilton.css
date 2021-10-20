@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(163, 104, 163);
+}
+
+body h1 {
+    color: white;
+    text-align: center;
+    text-decoration-line: overline; /*dibuja linea de arriba*/
+    text-decoration-line: underline; /*dibuja linea por debajo*/
+}
+
+body h2 {
+    color: white;
+    text-align: center;
+}
+
+.box-father {
+    display: flex;
+    color: white;
+    margin: 20px auto;
+}
+
+.box-one {
+  border: solid 2px black;
+  padding: 10px;
+  text-align: center;
+  height: 100px;
+}
+
+.box-two {
+    border: solid 2px black;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+}
+
+.box-three {
+    border: solid 2px black;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+}
+
